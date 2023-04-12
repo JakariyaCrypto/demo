@@ -1,0 +1,102 @@
+/***************** form validation ************/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #f8fafb;
+}
+
+.form-title h2 {
+	text-align: center;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: #38d39f;
+}
+
+.form-content {
+	width: 20%;
+	margin: 50px auto 0px;
+}
+
+.form-content {
+	width: 20%;
+	margin: 50px auto 0px;
+	background: white;
+	padding: 30px 15px;
+}
+
+.form-control {
+	display: flex;
+	flex-direction: column;
+}
+.form-control label {
+	color: #555;
+	font-size: 16px;
+	margin-bottom: 3px;
+}
+
+.form-control input {
+	height: 31px;
+	border-radius: ;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	margin-top: 5px;
+	padding-left: 5px;
+}
+
+.form-control input:focus{
+	outline: 0;
+}
+
+.form-content {
+	width: 20%;
+	margin: 50px auto 0px;
+	background: white;
+	padding: 30px 15px;
+	box-shadow: 0 1px 10px 4px rgba(0,0,0,.1);
+}
+
+.form-btn button {
+	border: none;
+	background: #38d39f;
+	padding: 7px 15px;
+	margin-top: 10px;
+	cursor: pointer;
+	border-radius: ;
+	border-top-right-radius: 7px;
+	border-bottom-left-radius: 7px;
+	color: white;
+	font-weight: bold;
+	transition: .4s;
+}
+
+.form-btn button:hover {
+	border-top-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	background: black;
+	color: #38d39f;
+}
+
+
+.form-control.error input{
+	border: 1px solid red;
+}
+
+.form-control.success input{
+	border: 1px solid red;
+}
+
+
+
+
+
+
+
+
+
+
+
